@@ -2,9 +2,9 @@
 
 let age = confirm("Are your 21+ if yes click ok");
 if(age){
-    document.write("Can drink");
+    console.log("Can drink");
 }
 
 else{
-    document.write("Cannot drink");
+    console.log("Cannot drink");
 }
