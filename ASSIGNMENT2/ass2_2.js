@@ -6,30 +6,30 @@ let str = "We can lear java script as fast as its easy to understand    ";
 
 console.log(str.search("java"));
 
-// SLICE
+// SLICE : this method will print the string  in the given length. 
 
 console.log(str.slice(7,23));
 
-// SUBSTRING
+// SUBSTRING : the sub will be printed in the length given. 
 
 console.log(str.substring(23,31));
 
 console.log(str.substr(32));
 
-// Replacing
+// Replacing : the method will replace  the given string with new string mentioned. 
 
 console.log(str.replace("as fast as","as quickly because" ));
 
-//trim
+//trim : this method will remove the extra space at the end. 
 
 console.log(str.trim());
 
 var fruits = ['banana','orange']
 
-// join
+// join : join method will join the elements  in the array 
 console.log(fruits.join('*'));
 
-// tostring
+// tostring : this method convert the array to string
 console.log(fruits.toString());
 
 // changing the element
