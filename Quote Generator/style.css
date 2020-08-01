@@ -1,0 +1,29 @@
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    background-image: url('https://wallpapercave.com/wp/5KLTq1z.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    z-index: -2;
+  }
+
+  #Display {
+    color: white;
+    font-size: 2.9em;
+    top: 10px;
+  border-bottom: thin solid;
+  padding-bottom: 20px;
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+h1{
+    color: aqua;
+    font-size: 2.9em;
+}
+  
